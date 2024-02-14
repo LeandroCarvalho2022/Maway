@@ -1,0 +1,20 @@
+<div class="w3-display-container bgimg-2">
+    <div class="container top-5">
+        <div class="row" style="height: 85%;">
+            <div class="mainrow">
+                <div class="list-group">
+                    <h1>Habilidades</h1>
+                    <ul>
+                        
+                        <li><a [routerLink]="['lang']" routerLinkActive="active" ariaCurrentWhenActive="page">Linguagens</a></li>
+                        <li><a [routerLink]="['data']" routerLinkActive="active" ariaCurrentWhenActive="page">Banco de dados</a></li>
+                        <li><a [routerLink]="['frame']" routerLinkActive="active" ariaCurrentWhenActive="page">Frameworks</a></li>
+                    </ul>
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                <router-outlet></router-outlet></div>
+            </div>
+        </div>
+    </div>
+</div>

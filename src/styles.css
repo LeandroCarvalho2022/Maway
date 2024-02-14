@@ -1,1 +1,157 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;
+text-align: center;
+}
+
+body, html {
+  height: 100%;
+  color: #333333;
+  line-height: 1.8;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+ul{
+  text-align: left;
+}
+li{
+  list-style-type: none;
+}
+p{
+  font-size: 20px !important;
+}
+.bgimg-3 {
+  background-image: url('assets/images/bgproje.jpg');
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+.w335{
+  width: 35% !important;
+}
+.w365{
+  width: 65% !important;
+}
+.mgtop{
+  margin-top: 50px;
+}
+.bgimg-2 {
+  background-image: url('assets/images/bgimg2.svg');
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+.bgimg-1 {
+    background-image: url('assets/images/bgimg.jpg');    
+    /* min-height: 100%; */
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+  }
+.vhfull{
+  min-height: 130vh;
+}
+  .opacity-min{
+    opacity: 0.75;
+  }
+  .w3-center{
+    text-align: center;
+  }
+  .w3container{
+    padding: 0.01em 16px;
+  }
+  .titlecolor{
+    color: #000;
+  }
+  .w3padding-64{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.w3start{
+    text-align: left;
+}
+.w3col-m6{
+    width: 49.99999%;
+}
+.w3image{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    height: 500px ;
+}
+
+.angicon{
+  background-image: url(/assets/images/icons/angular.svg);
+  background-repeat: no-repeat;
+}
+.jsicon{
+  background-image: url(/assets/images/icons/jsicon.svg);
+  background-repeat: no-repeat;
+}
+.phpicon{
+  background-image: url(/assets/images/icons/phpicon.svg);
+  background-repeat: no-repeat;
+}
+
+
+.button {
+  --bg: #fff;
+  --hover-bg: #4b4b4b;
+  --hover-text: #000;
+  color: #111111;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+
+
+@keyframes opac{    
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+@media screen and (max-width: 760px)  {
+  p{
+    font-size: 12px !important;
+  }
+}

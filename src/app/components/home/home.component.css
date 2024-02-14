@@ -1,0 +1,37 @@
+.container-fluid{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    animation: opac 0.8s;
+    width: fit-content;
+    padding: 12px 24px;
+    background-color: #000;
+}
+span{
+    font-size: 24px;
+    color: azure;
+    letter-spacing: 10px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .row{
+        padding: 6px 4px !important;
+    }
+    span{
+        font-size: 10px;
+    }
+}
+
+@keyframes opac{    
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

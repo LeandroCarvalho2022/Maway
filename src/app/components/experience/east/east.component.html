@@ -1,0 +1,85 @@
+<section class="title container">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="https://www.elwp.org.uk/Home.htm" target="_blank"><h1>East London Water Works</h1></a>
+            <div class="seperator"></div>
+            <p>Desenvolvedor Front-End <em>Since 08/12/2023</em></p>
+
+        </div>
+    </div>
+</section>
+
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6 item" style="animation: opac 0.8s;">
+            <div class="item-in">
+                <h4>Sobre a organização</h4>
+                <div class="seperator"></div>
+                <p>É uma organização localizada Londres sem fins lucrativos, que busca adquirir terras que estão abandonadas e transformam
+                    em
+                    um bio-ambiente, para que a biodiversidade tenha um lugar na comunidade junto as pessoas!</p>
+            </div>
+        </div>
+        <div class="col-md-6 item" style="animation: opac 2.0s;">
+            <div class="item-in">
+                <h4>Meu papel</h4>
+                <div class="seperator"></div>
+                <p>Faço parte do time de desenvolvimento, trabalhamos voluntariamente com o time de design e
+                    comunicação,
+                    sou responsável pela criação de novos projetos para o website, páginas, manutenção e implementação
+                    de funcionalidades!</p>
+                    <em>Participo também de reuniões semanais com o time de desenvolvimento, design e comunicação</em>
+                    <br>
+
+                    <button (click)="toggleHidden()">Ler mais</button>
+            </div>
+        </div>
+        <div class="col-md-6 item hidden" [class.hidden]="isHidden" style="animation: opac 0.8s;">
+            <div class="item-in">
+                <h4>Toolbox</h4>
+                <div class="seperator"></div>
+                <p class="w3-large w3-center w3-padding-16">Ferramentas do dia-a-dia</p>
+                <p class="w3-wide"><i aria-hidden="true"></i>PHP</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-padding-small w3-dark-grey w3-center " style="width:85%">85%</div>
+                </div>
+                <p class="w3-wide"><i aria-hidden="true"></i>JAVASCRIPT</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:55%">55%</div>
+                </div>
+                <p class="w3-wide"><i aria-hidden="true"></i>HTML</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:40%">40%</div>
+                </div>
+                <p class="w3-wide"><i aria-hidden="true"></i>BOOTSTRAP</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:40%">40%</div>
+                </div>
+                <p class="w3-wide"><i aria-hidden="true"></i>MySQL</p>
+                <div class="w3-light-grey">
+                    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+                </div>
+                
+                <button style="margin-top: 8px;" (click)="toggleHidden2()">Ler mais</button>
+            </div>
+        </div>
+        <div class="col-md-6 item hidden2" [class.hidden2]="isHidden2" style="animation: opac 0.8s;">
+            <div class="item-in">
+                <h4>Trabalhos</h4>
+                <div class="seperator"></div>
+                <p>Minha primeira contribuição, foi com a criação de uma página para contato, junto ao Senior Peter Mudge.<br>
+                    Criamos a página "contact-us", você pode acessar ela neste link 
+                    <a href="https://www.elwp.org.uk/ContactUs.htm" target="_blank">Clique aqui!</a><br>
+                    Recentemente implementei uma nova atualização, um dropdown para o usuário selecionar como ouviu sobre a organização,
+                    "How did you hear about-us?", além deste dropdown, a nova atualização traz também um dashboard que retorna os dados 
+                    do banco SQL contabiliza e dispara
+                    as respostas vindas do formulário de contato no dashboard, as alterações estão aguardando um outro issue ser finalizado para subir para a página-teste,
+                    assim que todos aprovarem as alterações, vou poder subir para a página oficial, e disponibilizarei aqui o link!
+                     Utilizei PHP, SQL, HTML e JavaScript!
+                </p>
+    
+            </div>
+        </div>
+    </div>
+
+</div>

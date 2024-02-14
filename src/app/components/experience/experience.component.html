@@ -1,0 +1,18 @@
+<div class="bgimg-2 w3-display-container bgimg-2">
+    <div class="container top-5">
+        <div class="row" style="height: 85%;">
+            <div class="mainrow">
+                <div class="list-group">
+                    <h1>Experiencias</h1>
+                    <ul>
+                        <li><a [routerLink]="['east']" routerLinkActive="active" ariaCurrentWhenActive="page">EastLondonWaterWorks</a></li>
+                        <li><a [routerLink]="['ebenezer']" routerLinkActive="active" ariaCurrentWhenActive="page">Ebenezer Solutions</a></li>
+                    </ul>
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                <router-outlet></router-outlet></div>
+            </div>
+        </div>
+    </div>
+</div>

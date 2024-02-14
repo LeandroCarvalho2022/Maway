@@ -1,0 +1,38 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .white-text {
+      fill: #333333;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      text-anchor: middle;
+      text-shadow: 1px 1px 2px #999999;
+    }
+  </style>
+  <rect x="0" y="0" width="100%" height="100%" fill="#F5F5F5" />
+  <circle cx="50%" cy="50%" r="30%" fill="#CCCCCC" filter="url(#dropShadow)" />
+  <circle cx="30%" cy="30%" r="5%" fill="#999999" filter="url(#dropShadow)" />
+  <circle cx="70%" cy="30%" r="5%" fill="#999999" filter="url(#dropShadow)" />
+  <circle cx="30%" cy="70%" r="5%" fill="#999999" filter="url(#dropShadow)" />
+  <circle cx="70%" cy="70%" r="5%" fill="#999999" filter="url(#dropShadow)" />
+  <rect x="45%" y="40%" width="10%" height="20%" fill="#999999" filter="url(#dropShadow)" />
+  <rect x="40%" y="45%" width="20%" height="10%" fill="#999999" filter="url(#dropShadow)" />
+  <circle cx="20%" cy="20%" r="10%" fill="#AAAAAA" filter="url(#dropShadow)" />
+  <circle cx="80%" cy="80%" r="10%" fill="#AAAAAA" filter="url(#dropShadow)" />
+  <line x1="10%" y1="90%" x2="30%" y2="70%" stroke="#BBBBBB" stroke-width="2" />
+  <line x1="70%" y1="30%" x2="90%" y2="10%" stroke="#BBBBBB" stroke-width="2" />
+  <line x1="10%" y1="30%" x2="30%" y2="10%" stroke="#BBBBBB" stroke-width="2" />
+  <line x1="70%" y1="90%" x2="90%" y2="70%" stroke="#BBBBBB" stroke-width="2" />
+  <defs>
+    <filter id="dropShadow" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="2" dy="2" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

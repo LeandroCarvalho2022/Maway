@@ -1,0 +1,68 @@
+<div class="container-fluid bgimg-3 vhfull">
+    <div class="row" style="opacity: 0.95; text-align: center;">
+        <h1 style="color: aliceblue;">PROJETINS</h1>
+
+        <div class="container">
+            <div class="col angicon">
+                <div class="card">
+                <h5 class="card-header">Eccomerce PROZ</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Trabalho de conclusão PROZ</h5>
+                  <p class="card-text">Projeto criado para conclusão de curso.</p>
+                  <a class="button" (click)="showData('id1')">Ler mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col jsicon">
+                <div class="card">
+                    <h5 class="card-header">Projeto voluntário para igreja local</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">Trabalho extracurricular</h5>
+                      <p class="card-text">Website criado, com intuito de conectar a todos com a igreja.</p>
+                      <a class="button" (click)="showData('id2')">Ler mais</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container expd" [ngStyle]="{'display': showContent ? 'flex' : 'none'}">
+            <div *ngIf="dados">
+                <!-- <h1>{{dados.nome}}</h1>
+                <img class="w3img" src="{{dados.img}}" alt="">
+                <div class="col"><h3>{{dados.numero}}</h3></div> -->
+                    <div class="col s12 m6">
+                      <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                          <span class="card-title"><h1>{{dados.nome}}</h1></span>
+                          <p>{{dados.content}}</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="{{dados.url}}" target="_blank">Repo github</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="container">
+            <div class="col angicon">
+                <div class="card">
+                    <h5 class="card-header">CookSphere</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">Gerador de receitas</h5>
+                      <p class="card-text">Projeto de estudo.</p>
+                      <a  class="button" (click)="showData('id3')">Ler mais</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col jsicon">
+                <div class="card">
+                    <h5 class="card-header">Moments</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">CMS</h5>
+                      <p class="card-text">Primeiro projeto Angular.</p>
+                      <a class="button" (click)="showData('id4')">Ler mais</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
