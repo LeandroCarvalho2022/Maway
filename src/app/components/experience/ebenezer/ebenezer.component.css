@@ -1,16 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body{
   background: #fbfbfb;
-  font-family: 'Merriweather', serif;
   font-size: 16px;
   color:#777;
 }
-h1,h4{
-  font-family: 'Montserrat', sans-serif;
-}
+
 .row{
   padding:50px 0;
 }
@@ -82,7 +77,6 @@ h1,h4{
       font-size: 12px;
     }
     a{
-      font-family: 'Montserrat', sans-serif;
       font-size: 12px;
       text-transform: uppercase;
       color: #666666;
@@ -131,7 +125,6 @@ h1,h4{
   left: -16px;
   cursor:pointer;
     a{
-      font-family: 'Merriweather', serif;
       font-size: 14px;
       font-weight:400;
       color: #999;
