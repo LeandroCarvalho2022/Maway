@@ -10,12 +10,17 @@ import { Component } from '@angular/core';
 export class EastComponent {
   isHidden: boolean = true;
   isHidden2: boolean = true;
+  isHidden3: boolean = true;
+
   toggleHidden() {
     this.isHidden = !this.isHidden;
   }
 
   toggleHidden2() {
     this.isHidden2 = !this.isHidden2;
+  }
+  toggleHidden3() {
+    this.isHidden3 = !this.isHidden3;
   }
 
 }
